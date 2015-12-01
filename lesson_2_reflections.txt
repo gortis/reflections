@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 When you initialize a repository, you are able to use Git for version control on this directory and its contents. It is important to do this so that you can start saving different versions of your work in case you need to reference these versions later.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is different from the working directory in that it only keeps the files that have been changed since the last commit. The repository keeps all commits. It is important to have the staging area in order to make sure that each commit/logical changes has exactly the files that are related to it, whereas otherwise the user would not have a choice but to commit all changed files directly to the repository without first looking at what each commit consists of.
+
