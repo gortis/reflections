@@ -6,3 +6,7 @@ How is the staging area different from the working directory and the repository?
 
 The staging area is different from the working directory in that it only keeps the files that have been changed since the last commit. The repository keeps all commits. It is important to have the staging area in order to make sure that each commit/logical changes has exactly the files that are related to it, whereas otherwise the user would not have a choice but to commit all changed files directly to the repository without first looking at what each commit consists of.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can compare the changes between the staging area and the last commit using git diff --staged to see exactly what you added and whether all the changes are related to the intended logical change.
+
