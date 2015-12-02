@@ -22,3 +22,6 @@ What is the result of merging two branches together? Why do we represent it in t
 
 Merging two branches together allows up to keep all of the changes that have been made in both master and the new branch once it is done being worked on. We represent it so that it indicates that its history includes both branches' commits.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: Git allows us to see exactly where there are conflicts to save us time from looking and changing manually. Cons: It can interfere with current work and the merge conflicts have to be taken care of before committing again.
