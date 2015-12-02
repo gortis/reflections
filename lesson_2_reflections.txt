@@ -14,3 +14,7 @@ What are some situations when branches would be helpful in keeping your history 
 
 Branches are very useful for categorizing the big changes you have worked/are working on versus the small logical changes you make per commit.
 
+How do the diagrams help you visualize the branch structure?
+
+The diagrams clearly show after which commit different branches were created so that we know what changes are included in the branches and what is yet to be merged.
+
