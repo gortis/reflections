@@ -18,3 +18,7 @@ How do the diagrams help you visualize the branch structure?
 
 The diagrams clearly show after which commit different branches were created so that we know what changes are included in the branches and what is yet to be merged.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together allows up to keep all of the changes that have been made in both master and the new branch once it is done being worked on. We represent it so that it indicates that its history includes both branches' commits.
+
